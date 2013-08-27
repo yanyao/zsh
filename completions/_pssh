@@ -1,0 +1,5 @@
+#compdef pssh
+
+
+_arguments "1:haha:(World)"
+
