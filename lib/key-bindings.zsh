@@ -3,6 +3,7 @@
 bindkey -e
 bindkey '\ew' kill-region
 bindkey -s '\el' "ls\n"
+bindkey -s '\ei' "ifconfig -a\n"
 bindkey '^r' history-incremental-search-backward
 bindkey "^[[5~" up-line-or-history
 bindkey "^[[6~" down-line-or-history
@@ -23,6 +24,7 @@ bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 
 bindkey '^[[Z' reverse-menu-complete
+bindkey '^u' backward-kill-line
 
 # Make the delete key (or Fn + Delete on the Mac) work instead of outputting a ~
 bindkey '^?' backward-delete-char
