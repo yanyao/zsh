@@ -15,3 +15,4 @@ alias jumper="ssh yanwei@9.115.251.167"
 alias 252="ssh root@9.125.13.252"
 alias v="vagrant"
 alias ubuntu="cd /Users/yaoyanwei/vagrant/"
+alias vsh='vagrant ssh -- -X'
