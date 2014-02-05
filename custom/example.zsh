@@ -14,3 +14,4 @@ alias slot5="sshpass -p Passw0rd ssh -o StrictHostKeyChecking=no root@192.168.70
 alias jumper="ssh yanwei@9.115.251.167"
 alias 252="ssh root@9.125.13.252"
 alias v="vagrant"
+alias vsh="vagrant ssh -- -X"
