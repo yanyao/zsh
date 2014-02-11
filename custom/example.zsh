@@ -4,7 +4,7 @@
 # brainstormr=/Users/robbyrussell/Projects/development/planetargon/brainstormr
 #
 alias bbs2='telnet bbs.newsmth.net'
-alias ssh='ssh -o StrictHostKeyChecking=no'
+alias ssh='ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'
 alias proxy='ssh -N -D "*:2001" galvin@202.120.36.190 -p 2022'
 alias ibm_proxy='ssh -N -D "*:2001" Athena@9.12.27.225 &'
 alias slot2="sshpass -p Passw0rd ssh -o StrictHostKeyChecking=no root@192.168.70.202"
